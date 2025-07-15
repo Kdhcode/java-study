@@ -9,7 +9,7 @@ public class RunStatementExample {
 		int result = x + y; // 변수 result를 선언하고 x와 y를 더한 값을 저장
 		System.out.println(result); // prubtln 메소드 호출 => 콘솔에 출력
 	}
- 
+ //commit 메세지 연습
 }
 
 /* Eclipse 단축키 정리
