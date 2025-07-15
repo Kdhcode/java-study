@@ -21,5 +21,6 @@ public class Hello {	// 클래스 선언 : 클래스 이름은 대문자로 시�
 		System.out.println("Hello, Java");	
 		// 저장을 누를 때마다 자동으로 컴파일됨( 만약 에러가 있으면 빨간줄 발생!)
 	}
+	
 
 }
