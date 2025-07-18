@@ -60,7 +60,7 @@ public class WhileSumFrom1To100Example {
 			}
 			i++;
 		}
-		System.out.println(sum);
+		System.out.println("1 ~ 100 까지 홀수의 합 : " + sum);
 		
 		
 				// Quiz2:
@@ -76,14 +76,12 @@ public class WhileSumFrom1To100Example {
 				
 		Scanner sc = new Scanner(System.in);
 		System.out.print("수를 입력하세요: ");
-		int a = sc.nextInt();
+		int num = sc.nextInt();
 		sum = 0;
-		while (a > 0) {
-			sum += a % 10;
-			a = a / 10;
-		}	
+		while (num > 0) { 
+			sum += num % 10; //마지막 자리 수 더하기 
+			num /= 10; //마지막 자리 제거
+			}	
 		System.out.println("더한 값은 : " + sum);
-		
-		
 	}
 }
