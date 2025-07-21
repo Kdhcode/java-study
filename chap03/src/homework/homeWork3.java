@@ -14,7 +14,7 @@ public class homeWork3 {
 		int b = ca / a;
 		int c = ca % a;
 		System.out.println("1인당 사탕 개수: " + b + "개");
-		System.out.println("남는 사탕 개수: " + c+ "개");
+		System.out.println("남는 사탕 개수: " + c + "개");
 	}
 
 }

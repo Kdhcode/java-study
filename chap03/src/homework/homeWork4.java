@@ -15,9 +15,10 @@ public class homeWork4 {
 		int en = sc.nextInt();
 		
 		int to = ko + ma + en;
-		int avg = to/3;
+		double avg = to / 3.0;
 		
-		String b = (ko >= 60 & ma >= 60 & en >= 60) || avg > 90 ? "있" : "없";
+		String b = (ko >= 60 && ma >= 60 && en >= 60) 
+					&& avg > 90 ? "있" : "없";
 		
 		System.out.println("합계 " + to + "점" );
 		System.out.println("평균 " + avg + "점" );

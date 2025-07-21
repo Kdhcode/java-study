@@ -19,7 +19,7 @@ public class homework6 {
 		System.out.print("정보시스템구축관리 점수 : ");
 		int e = sc.nextInt();
 		
-		int avg = (a + b + c + d + e)/5;
+		double avg = (a + b + c + d + e) / 5.0;
 		
 		if ((40 <= a && a <= 100) && (40 <= b && b <= 100) 
 				&& (40 <= c && c <= 100) && (40 <= d && d <= 100) 
@@ -36,7 +36,7 @@ public class homework6 {
 				|| (0 > e || e > 100) ){
 			System.out.println("잘못 입력하였습니다.");
 			
-		}else if (40 > a) {
+		} else if (40 > a) {
 			System.out.println("소프트웨어 설계 과목 과락으로 불합격입니다.");
 		} else if (40 > b) {
 			System.out.println("소프트웨어개발 과목 과락으로 불합격입니다.");

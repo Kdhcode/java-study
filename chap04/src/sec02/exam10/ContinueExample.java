@@ -36,7 +36,7 @@ public class ContinueExample {
 		String b = "";
 		
 		for (int i = 0; i < a.length(); i++) {
-			b += 
+			
 		}
 		
 		

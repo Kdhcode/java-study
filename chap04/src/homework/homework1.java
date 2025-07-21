@@ -10,11 +10,11 @@ public class homework1 {
 		int a = sc.nextInt();
 		if (a < 3) {
 			System.out.println("당신의 놀이동산 요금은 무료 입니다.");
-		} else if (a <= 3 && a < 13) {
+		} else if (a < 13) {
 			System.out.println("당신의 놀이동산 요금은 10000 입니다.");
-		} else if (a <= 13 && a < 19) {
+		} else if (a < 19) {
 			System.out.println("당신의 놀이동산 요금은 20000 입니다.");
-		} else if (a <= 19 && a <65 ) {
+		} else if (a < 65) {
 			System.out.println("당신의 놀이동산 요금은 30000 입니다.");
 		} else {
 			System.out.println("당신의 놀이동산 요금은 무료입니다.");
