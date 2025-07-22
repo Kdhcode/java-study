@@ -11,8 +11,8 @@ public class homewark6 {
 		int num = sc.nextInt();
 		
 		for (int i = 1; i <= num; i++) {
-			for (int j = 1; j <= i; j++) {
-				for (int n = 1; n <= i/2; n++) {
+			for (int j = 1; j <= j*2-1; j++) {
+				for (int n = 1; n <= num/2; n++) {
 					System.out.print(" ");
 				}
 				System.out.print("*");
