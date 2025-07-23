@@ -20,8 +20,9 @@ public class homewark2 {
 				System.out.print("숫자 : ");
 				num = sc.nextInt();
 			} 
-				System.out.println("=== " + num + " 단 ===");
-				for (int i = 1; i <= num; i++) {
+				for (int i = num; i <= 9; i++) {
+					System.out.println();
+					System.out.println("=== " + i + " 단 ===");
 					for (int j = 1; j <= 9; j++) {
 						System.out.println(i + " * " + j + " = " + i * j);
 					}
