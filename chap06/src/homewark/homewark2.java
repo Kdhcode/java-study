@@ -15,8 +15,7 @@ public class homewark2 {
 		int sum = 0;
 		for (int i = 0; i < num; i++) {
 			System.out.print("배열 " + i + "번째 인덱스에 넣을 값 : ");
-			int num1 = sc.nextInt();
-			line[i] = num1;
+			line[i] = sc.nextInt();
 		}
 		for(int i = 0; i < num; i++) {
 			System.out.print(line[i] + " ");
