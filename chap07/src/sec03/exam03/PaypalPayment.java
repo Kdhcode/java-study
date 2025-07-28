@@ -1,4 +1,4 @@
-package sec.exam03_2;
+package sec03.exam03;
 
 // 자식 클래스 : 페이팔 결제
 public class PaypalPayment extends PaymentService{
