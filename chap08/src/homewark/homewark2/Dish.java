@@ -18,7 +18,7 @@ public class Dish extends Menu{
 	@Override
 	void cook() {
 		
-		return  + "재료는" + ingredients + "입니다";
+//		return  + "재료는" + ingredients + "입니다";
 	}
 
 	
