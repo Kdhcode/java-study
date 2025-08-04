@@ -11,15 +11,18 @@ public class Quiz4 {
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		
 		System.out.print("몇명인지 = ");
 		int num = sc.nextInt();
 		sc.nextLine();
+		
 		String[] st = new String[num];
+		
 		for (int i = 0; i < num; i++) {
 			System.out.print("이름: ");
-			String stu = sc.nextLine();
-			st[i] = stu;
-		}
+			st[i] = sc.nextLine();
+
+		} 
 		int mm = (int) (Math.random() * num);
 		System.out.println(st[mm]);
 	}
