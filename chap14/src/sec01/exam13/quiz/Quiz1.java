@@ -2,7 +2,6 @@ package sec01.exam13.quiz;
 
 import java.io.FileReader;
 import java.io.Reader;
-import java.util.Iterator;
 
 public class Quiz1 {
 //	Quiz
@@ -18,7 +17,7 @@ public class Quiz1 {
 			
 			if (readNum != -1) {
 				for (int i = 0; i < readNum; i++) {					
-					System.out.println(buffer[i]);
+					System.out.print(buffer[i]);
 				}
 			}
 			

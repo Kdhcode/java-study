@@ -17,10 +17,13 @@ public class Quiz2 {
 		Writer writer = new FileWriter("C:/Temp/test_copy.txt");
 		
 		char[] array = new char[1024];
+		while(true) {
 		int num = reader.read(array);
+		if(num == -1) break;
 		writer.write(array); 
 		writer.flush();
 		writer.close();
 	}
+}
 
 }
